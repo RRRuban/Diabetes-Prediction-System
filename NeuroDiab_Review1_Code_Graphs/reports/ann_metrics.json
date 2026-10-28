@@ -1,0 +1,95 @@
+{
+  "dataset": "UCI Early Stage Diabetes Risk Prediction Dataset (Review-I CSV)",
+  "dataset_rows": 520,
+  "dataset_columns_including_target": 17,
+  "input_features": 16,
+  "positive_records": 320,
+  "negative_records": 200,
+  "exact_duplicate_rows_reported": 269,
+  "unique_full_record_groups": 251,
+  "split_method": "StratifiedGroupKFold; exact duplicate full records grouped",
+  "seed": 42,
+  "ann_hidden_layer_sizes": [
+    32,
+    16
+  ],
+  "ann_activation": "relu",
+  "ann_solver": "adam",
+  "ann_alpha": 0.001,
+  "ann_learning_rate_init": 0.001,
+  "ann_max_iter": 1000,
+  "ann_early_stopping": true,
+  "heldout_train_rows": 416,
+  "heldout_test_rows": 104,
+  "heldout_train_positive": 256,
+  "heldout_train_negative": 160,
+  "heldout_test_positive": 64,
+  "heldout_test_negative": 40,
+  "heldout_accuracy": 0.8365384615384616,
+  "heldout_precision": 0.8133333333333334,
+  "heldout_recall": 0.953125,
+  "heldout_specificity": 0.65,
+  "heldout_f1": 0.8776978417266187,
+  "heldout_roc_auc": 0.970703125,
+  "heldout_pr_auc_average_precision": 0.9837997329995286,
+  "heldout_brier_score": 0.0945191484063743,
+  "ann_epochs_run_on_heldout_fit": 65,
+  "cv_mean_std": {
+    "accuracy": {
+      "mean": 0.9057692307692307,
+      "std": 0.059816657749983806,
+      "fold_scores": [
+        0.8365384615384616,
+        0.9326923076923077,
+        0.9519230769230769,
+        0.9615384615384616,
+        0.8461538461538461
+      ]
+    },
+    "precision": {
+      "mean": 0.923767094017094,
+      "std": 0.06278396827186769,
+      "fold_scores": [
+        0.8133333333333334,
+        0.9384615384615385,
+        0.9538461538461539,
+        0.96875,
+        0.9444444444444444
+      ]
+    },
+    "recall": {
+      "mean": 0.928125,
+      "std": 0.07378574345698496,
+      "fold_scores": [
+        0.953125,
+        0.953125,
+        0.96875,
+        0.96875,
+        0.796875
+      ]
+    },
+    "f1": {
+      "mean": 0.9235662731147365,
+      "std": 0.048877850143272894,
+      "fold_scores": [
+        0.8776978417266187,
+        0.9457364341085271,
+        0.9612403100775194,
+        0.96875,
+        0.864406779661017
+      ]
+    },
+    "roc_auc": {
+      "mean": 0.9657812500000003,
+      "std": 0.02831775311710942,
+      "fold_scores": [
+        0.970703125,
+        0.973046875,
+        0.98359375,
+        0.98515625,
+        0.9164062500000001
+      ]
+    }
+  },
+  "warnings": []
+}

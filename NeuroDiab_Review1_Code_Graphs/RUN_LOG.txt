@@ -1,0 +1,21 @@
+NEURODIAB REVIEW-II — ANN STEP 1 COMPLETE
+Dataset: 520 rows x 17 columns; 16 input features
+Exact duplicate rows flagged: 269; groups used to prevent duplicate leakage: 251
+Grouped holdout: train=416 test=104
+Held-out metrics:
+  heldout_accuracy: 0.8365
+  heldout_precision: 0.8133
+  heldout_recall: 0.9531
+  heldout_specificity: 0.6500
+  heldout_f1: 0.8777
+  heldout_roc_auc: 0.9707
+  heldout_pr_auc_average_precision: 0.9838
+  heldout_brier_score: 0.0945
+Grouped 5-fold CV:
+  accuracy: 0.9058 +/- 0.0598
+  precision: 0.9238 +/- 0.0628
+  recall: 0.9281 +/- 0.0738
+  f1: 0.9236 +/- 0.0489
+  roc_auc: 0.9658 +/- 0.0283
+ANN epochs: 65; model saved to /mnt/data/NeuroDiab_ReviewII_ANN/models/ann_review2_pipeline.joblib
+Graphs saved to /mnt/data/NeuroDiab_ReviewII_ANN/graphs; reports saved to /mnt/data/NeuroDiab_ReviewII_ANN/reports

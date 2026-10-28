@@ -1,0 +1,18 @@
+,dtype
+Age,int64
+Gender,str
+Polyuria,str
+Polydipsia,str
+sudden weight loss,str
+weakness,str
+Polyphagia,str
+Genital thrush,str
+visual blurring,str
+Itching,str
+Irritability,str
+delayed healing,str
+partial paresis,str
+muscle stiffness,str
+Alopecia,str
+Obesity,str
+class,str

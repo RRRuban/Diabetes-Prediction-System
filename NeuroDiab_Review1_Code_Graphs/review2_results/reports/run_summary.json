@@ -1,0 +1,18 @@
+{
+  "dataset_file": "diabetes_data_upload.csv",
+  "rows": 520,
+  "columns_including_target": 17,
+  "target_column": "class",
+  "feature_count": 16,
+  "missing_cells": 0,
+  "exact_duplicate_rows": 269,
+  "unique_full_record_groups": 251,
+  "train_rows": 406,
+  "test_rows": 114,
+  "positive_train": 236,
+  "negative_train": 170,
+  "positive_test": 84,
+  "negative_test": 30,
+  "best_by_roc_auc_on_this_holdout": "SVM",
+  "warning": "Preliminary internal hold-out results only; not external clinical validation or a diagnostic guarantee."
+}

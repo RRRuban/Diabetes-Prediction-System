@@ -1,0 +1,17 @@
+NEURODIAB PROJECT STRUCTURE
+
+Review-I (original retained):
+- neurodiab_review1.py
+- graphs_from_ppt_values/
+- README history reflected in current README.txt
+
+Review-II (added):
+- 01_train_ann.py
+- 02_compare_models.py
+- app.py
+- data/diabetes_data_upload.csv
+- models/
+- reports/
+- graphs/
+
+Run from this folder so relative paths resolve correctly.

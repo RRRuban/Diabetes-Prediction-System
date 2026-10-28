@@ -1,0 +1,12 @@
+{
+  "dataset_rows": 520,
+  "feature_count": 16,
+  "exact_record_groups": 251,
+  "train_rows": 416,
+  "test_rows": 104,
+  "positive_rows": 320,
+  "negative_rows": 200,
+  "random_state": 42,
+  "split_method": "first fold of StratifiedGroupKFold; exact full-record duplicates grouped",
+  "caution": "Internal dataset evaluation only; not external clinical validation."
+}

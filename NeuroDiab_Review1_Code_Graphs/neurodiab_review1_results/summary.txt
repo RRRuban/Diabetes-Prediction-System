@@ -1,0 +1,13 @@
+Dataset file: diabetes_data_upload.csv
+Rows: 520
+Columns incl. target: 17
+Target column: class
+Missing cells: 0
+Exact duplicate rows: 269
+
+Class counts:
+class
+Positive    320
+Negative    200
+
+Graphs are generated from the supplied CSV. Review all encodings and outputs before using them in an academic submission.
