@@ -206,9 +206,6 @@ These are planned enhancements and should not be considered completed unless imp
 
 ## 📄 License
 
-
-## 📄 License
-
 No license has been specified yet. Add an appropriate open-source license if you intend to permit others to reuse, modify, or distribute this project.
 
 This project is currently intended for academic research and educational demonstration only.
